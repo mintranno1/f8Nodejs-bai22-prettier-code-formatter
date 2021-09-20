@@ -7,6 +7,4 @@ router.use('/search', siteController.search); // Trang search
 
 router.use('/', siteController.index); // Trang home
 
-
-
 module.exports = router;
